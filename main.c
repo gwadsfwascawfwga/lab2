@@ -17,7 +17,7 @@ int main() {
     double month5 = month4 * (1 + W / 100.0);
     double month6 = month5 * (1 + W / 100.0);
 
-    p("\n");
+    printf("\n");
     printf("Через 2 месяца: %.2lf руб.\n", month2);
     printf("Через 3 месяца: %.2lf руб.\n", month3);
     printf("Через полгода (6 месяцев): %.2lf руб.\n", month6);
